@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>WCSFWorkshopSlides.utf8.md</title>
+    <meta charset="utf-8" />
+    <link href="WCSFWorkshopSlides_files/remark-css/rladies.css" rel="stylesheet" />
+    <link href="WCSFWorkshopSlides_files/remark-css/rladies-fonts.css" rel="stylesheet" />
+    <link href="WCSFWorkshopSlides_files/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: inverse, center, top
+background-image: url(https://raw.githubusercontent.com/SportStatisticsRSweet/WCSF_WorkshopInR/master/WhittenOval.jpg)
+background-size: cover
+# Using R to Analyse, Visualise and Report on Team-Sport Athlete Data
+## Alice Sweeting, PhD
+.large[Workshop - WCSF | Friday 7th June 2019]&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+---
+
+
+
+class: center, left
+
+# A little about me!
+I am a Research Fellow at Victoria University within the Institute for Health and Sport. 
+
+--
+
+My role is embedded at the Western Bulldogs Football Club (AFL).
+
+--
+
+I mainly program in R and use it daily to analyse, visualise and report on athlete/ team performance data.
+
+--
+
+Work aside, I love being outdoors, running, and baking.
+
+--
+
+I also have a miniature dachshund puppy named Dudley! `#RDogLadies`
+
+&lt;img src="Figures/DudleyAndI.jpg" width="35%" /&gt;
+
+---
+
+class: inverse, center, top
+background-image: url(Figures/AFLW_WhittenOval.jpg)
+background-size: cover
+# What programs do you use to analyse athlete data?
+
+---
+
+class: center, left
+
+# Advantages of using Excel
+
+Easy to download, install, open.
+
+--
+
+Create a worksheet/ workbook and type away!
+
+
+--
+
+Interactive, (fairly) friendly to save, send, open and edit
+
+--
+
+Point and click to enter data, create figures, calculate math
+
+--
+
+Many tabs = data entry, analysis, visualisation, (dashboard) reporting
+
+--
+
+Can even run (basic to advanced) statistics!
+
+--
+
+Help is never far away...
+
+&lt;img src="https://media.giphy.com/media/eCz0zwSl7qxB6/giphy.gif" width="45%" /&gt;
+
+
+---
+
+class: center, top
+
+# But before long...
+
+&lt;img src="https://media.giphy.com/media/l1IY5NRhxdCJYxsmA/giphy.gif" align="middle" width="95%"/&gt;
+
+---
+
+class: center, top
+
+# We end up here!
+
+&lt;img src="Figures/ExcelStoppedWorking.png" align="middle" width="85%"/&gt;
+
+.footnote[
+Credit: [**Dr Jacquie Tran, ESSA Forum, 2019**](https://github.com/jacquietran/2019_essa_forum)
+]
+
+---
+
+class: center, top
+
+# But do not despair...
+
+&lt;img src="https://media.giphy.com/media/q7OOPXp9llxWE/giphy.gif" align="middle" width="85%"/&gt;
+
+---
+
+class: center, top
+
+
+# For there are better (reproducible) ways!
+
+--
+
+Type a line of code, run and see output 
+
+--
+
+Create a project, run analysis, create a dashboard and/ or report 
+
+--
+
+Reproducibility = Create a GitHub repo, clone, commit, push, push
+
+--
+
+Hard to manipulate raw data 
+
+--
+
+Automate reporting processes in .pdf or .html output
+
+
+---
+
+class: center, top
+
+
+# For there R better (reproducible) ways!
+
+
+
+Type a line of code, run and see output 
+
+
+
+Create a project, run analysis, create a dashboard and/ or report 
+
+
+
+Reproducibility = Create a GitHub repo, clone, commit, push, push
+
+
+
+Hard to manipulate raw data 
+
+
+Automate reporting processes in .pdf or .html output
+
+
+&lt;img src="Figures/RLogo.jpg" align="middle" width="50%"/&gt;
+
+---
+class: center, top
+
+# Today - a (quick) journey on using R
+
+&lt;img src="https://media.giphy.com/media/MOTkF7sT8u2Z2/giphy.gif" align="middle" width="85%"/&gt;
+
+
+---
+
+class: center, top
+
+# What learning to use R feels like...
+
+&lt;img src="https://media.giphy.com/media/7NoNw4pMNTvgc/giphy.gif" align="middle" width="85%"/&gt;
+
+---
+
+class: center, top
+
+# What others using R looks like...
+
+&lt;img src="https://media.giphy.com/media/A06UFEx8jxEwU/giphy.gif" align="middle" width="85%" /&gt;
+
+---
+
+class: center, top
+
+# But it isn't that daunting!
+
+&lt;img src="https://media.giphy.com/media/4BcZozfM0Dxa8/giphy.gif" align="middle" width="85%" /&gt;
+
+---
+
+class: center, top
+
+# Starting out in R
+
+Highly recommended using [RStudio IDE](https://www.rstudio.com/products/rstudio/), as it is a friendly interface.
+
+--
+
+Plenty of online resources to help learn, including [R Tutorial](http://www.r-tutor.com/r-introduction/data-frame).
+
+--
+
+Start out with a small dataset, with analysis that you want to replicate.
+
+--
+
+When in doubt, visit [Stack Overflow!](https://stackoverflow.com/)
+
+---
+
+class: center, top
+
+# Creating A Project
+
+---
+
+class: center, top
+
+# The Tidyverse
+
+---
+
+class: center, top
+
+# Cleaning Data
+
+---
+
+class: center, top
+
+# Visualising Data 
+
+---
+
+class: center, top
+
+# Importing Data from Smartabase
+
+---
+
+class: center, top
+
+# Analysing Athlete Monitoring Data - GroinBar
+
+---
+
+class: center, top
+
+# Visualising Athlete Monitoring Data - GroinBar
+
+---
+
+class: center, top
+
+# Analysing Athlete Monitoring Data - GPS
+
+---
+
+class: center, top
+
+# Visualising Athlete Monitoring Data - GPS
+
+---
+
+class: center, top
+
+# Reporting on Athlete Monitoring Data - RMarkdown
+
+---
+
+class: center, top
+
+# Creating Apps on Athlete Monitoring Data - RShiny
+
+---
+
+class: center, top
+
+# Creating Projects on Athlete Monitoring Data - WorkflowR
+
+---
+
+class: center, top
+
+# Creating Slides on Athlete Monitoring Data - Xaringan
+
+
+---
+
+class: center, middle
+
+# Happy Coding in R!
+
+<i class="fas  fa-link "></i> [SportStatisticsRSweet](http://sportstatisticsrsweet.rbind.io/)&lt;br&gt;&lt;br&gt;
+<i class="fas  fa-envelope "></i> [Alice.Sweeting@vu.edu.au](mailto:Alice.Sweeting@vu.edu.au)&lt;br&gt;&lt;br&gt;
+<i class="fab  fa-twitter "></i> [alicesweeting](https://twitter.com/alicesweeting)&lt;br&gt;&lt;br&gt;
+
+&lt;img src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" align="right, middle" /&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
